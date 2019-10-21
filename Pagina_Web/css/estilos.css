@@ -1,0 +1,116 @@
+
+#cabecera {
+	width: 780px;
+	height: auto;
+	margin: auto;
+	position: relative;	
+}
+
+/*Etiquetas*/
+body {
+	margin: 0;
+	font-family: 'Libre Franklin', sans-serif;
+	background:  #005883;
+}
+
+h1{
+font-family: 'Libre Franklin', sans-serif;
+color: black;
+margin-left: 10px;
+font-size: 18px;
+text-align: left;
+}
+
+
+h2{
+font-family: 'Libre Franklin', sans-serif;
+color: black;
+margin-left: 10px;
+font-size: 18px;
+text-align: left;
+}
+
+h3{
+font-family: 'Libre Franklin', sans-serif;
+color: black;
+font-size: 10px;
+text-align: center;
+}
+
+
+header {
+	width: 780px;
+	height: 240px;
+	background: url(../imagenes/tecnologia.jpg);
+}
+
+nav {
+width: 780px;
+height: 50px;
+display: flex;
+justify-content: space-between;
+background: rgba(255, 255, 255, 3,5);
+font-size: 18px;
+}
+
+ul {
+margin: auto;
+padding-top: 4px;
+}
+
+li {
+float: left;
+list-style: none;
+padding: 10px;
+background:   #F47920;
+margin: 3px;
+border-radius: 10px;
+box-shadow: 0 0 10px white inset;
+}
+
+a {
+	text-decoration: none;
+}
+
+section{
+	width: 450px;
+	height: 260px;
+	background:  #F0B429;
+	float: right;
+	border-radius: 10px;
+}
+
+figure{
+	float: left;
+}
+
+aside{
+	width: 310px;
+	height: 260px;
+	background:  #F0B429;
+	float: right;
+	margin-right: 20px;
+	border-radius: 10px;
+	}
+
+footer{
+	width: 780px;
+	height: 80px;
+	background:  #F0B429;
+	float: left;
+	margin-top: 15px;
+	border-radius: 10px;
+}
+
+
+/*Clases*/
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:active{color: white; text-decoration: none;}
+
+/*SEUDO CLASES*/
+
